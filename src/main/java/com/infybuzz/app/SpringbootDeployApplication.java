@@ -12,7 +12,7 @@ public class SpringbootDeployApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Hi babai";
+		return "Hi babai..";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootDeployApplication.class, args);
